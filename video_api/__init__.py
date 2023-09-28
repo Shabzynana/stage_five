@@ -4,9 +4,7 @@ from flask import Flask
 from flask_cors import CORS
 from video_api.config import App_Config
 
-
 db = SQLAlchemy()
-
 
 def create_app():
     """
